@@ -41,7 +41,7 @@ def Setengah_Interval (X1,X2):
   print("Toleransi Error: ", error)
 
 
-'''Metode ini memiliki kesamaan dengan metode setengah interval. Kesamaannya terletak dalam diperlukan dua harga taksiran 
+'''Metode interpolasi liniear memiliki kesamaan dengan metode setengah interval. Kesamaannya terletak dalam diperlukan dua harga taksiran 
 awal pada awal pengurungan akar persamaan. Namun, metode ini melakukan pencarian pendekatan akar persamaan selanjutnya 
 setelah pendekatan akar saat ini ditemukan. Interpolasi linier dilakukan melalui dua titik pertama dengan garis interpolasi 
 memotong sumbu x dan dititik perpotongan tersebut didapatkan pendekatan akar yang pertama lalu dilakukan evaluasi untuk 
